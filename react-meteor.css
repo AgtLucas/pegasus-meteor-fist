@@ -2,10 +2,8 @@
 
 /* CSS declarations go here */
 body {
-  font-family: sans-serif;
-  background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
-  background-attachment: fixed;
+  font-family: Helvetica, sans-serif;
+  background-color: #08c;
 
   position: absolute;
   top: 0;
@@ -27,8 +25,8 @@ body {
 }
 
 header {
-  background: #d2edf4;
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  background: tomato;
+  color: white;
   padding: 20px 15px 15px 15px;
   position: relative;
 }
