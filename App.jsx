@@ -25,10 +25,11 @@ App = React.createClass({
       createdAt: new Date()
     });
 
-    React.findDOMNode(this.refs.textInput).value = "";
+    React.findDOMNode(this.refs.textInput).value = '';
   },
 
   render() {
+
     return(
       <div className="container">
         <header>
