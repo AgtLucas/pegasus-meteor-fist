@@ -26,7 +26,7 @@ Meteor.methods({
     });
   },
 
-  removeTask() {
+  removeTask(taskId) {
     Tasks.remove(taskId);
   },
 
